@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosted on Public Web Server</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .box {
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 0px #E85E08; /* Amazon orange solid shadow offset to left bottom */
+            text-align: center;
+        }
+
+        h1 {
+            color: #E85E08; /* Amazon orange */
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>This website is being hosted on public-web-server1</h1>
+    </div>
+</body>
+</html>
